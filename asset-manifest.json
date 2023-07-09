@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/reactPwaTs/static/css/main.4781579a.css",
-    "main.js": "/reactPwaTs/static/js/main.c2d438d8.js",
+    "main.js": "/reactPwaTs/static/js/main.1afe682b.js",
     "index.html": "/reactPwaTs/index.html",
     "main.4781579a.css.map": "/reactPwaTs/static/css/main.4781579a.css.map",
-    "main.c2d438d8.js.map": "/reactPwaTs/static/js/main.c2d438d8.js.map"
+    "main.1afe682b.js.map": "/reactPwaTs/static/js/main.1afe682b.js.map"
   },
   "entrypoints": [
     "static/css/main.4781579a.css",
-    "static/js/main.c2d438d8.js"
+    "static/js/main.1afe682b.js"
   ]
 }
