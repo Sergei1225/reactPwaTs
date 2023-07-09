@@ -1,5 +1,6 @@
 import "./App.css";
 import { useEffect, useState } from "react";
+import { Route, Routes, Link } from "react-router-dom";
 
 const itemsLocalstorage = () => {
     const items = localStorage.getItem("items");
@@ -62,12 +63,10 @@ const ItemList = ({ name, id, updateItems }) => {
         </div>
     );
 };
-function App() {
+
+const MainComponet = () => {
     const [dataInput, setInput] = useState();
     const [dataItems, setDataItems] = useState(itemsLocalstorage());
-
-    console.log(dataItems);
-
     return (
         <div style={{ marginTop: "40px", justifyContent: "space-around", width: "90%", margin: "auto" }}>
             <div>
@@ -82,6 +81,26 @@ function App() {
                     : null}
             </div>
         </div>
+    );
+};
+function App() {
+    const [dataInput, setInput] = useState();
+    const [dataItems, setDataItems] = useState(itemsLocalstorage());
+
+    console.log(dataItems);
+
+    return (
+        <>
+            <div>
+                <h3>HELLLO</h3>
+                <Link to={'/'} >Home</Link>
+                <Link to={'/new'}>New</Link>
+            </div>
+            <Routes>
+                <Route path="/" Component={MainComponet} />
+                <Route path="/new" />
+            </Routes>
+        </>
     );
 }
 
