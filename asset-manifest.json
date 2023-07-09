@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/reactPwaTs/static/css/main.4781579a.css",
+    "main.js": "/reactPwaTs/static/js/main.9a07530e.js",
+    "index.html": "/reactPwaTs/index.html",
+    "main.4781579a.css.map": "/reactPwaTs/static/css/main.4781579a.css.map",
+    "main.9a07530e.js.map": "/reactPwaTs/static/js/main.9a07530e.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.4781579a.css",
+    "static/js/main.9a07530e.js"
+  ]
+}
