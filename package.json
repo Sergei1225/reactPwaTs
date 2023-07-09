@@ -1,7 +1,8 @@
 {
-  "name": "ts-course-proj-2",
+  "name": "my pwa",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://Sergei1225.github.io/reactPwaTs",
   "dependencies": {
     "gh-pages": "^5.0.0",
     "react": "^18.2.0",
