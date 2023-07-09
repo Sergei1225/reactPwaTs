@@ -76,8 +76,8 @@ function App() {
         <>
             <div>
                 <h3>HELLLO</h3>
-                <Link to={'/'} >Home</Link>
-                <Link to={'/new'}>New</Link>
+                <Link to={'reactPwaTs/'} >Home</Link>
+                <Link to={'reactPwaTs/new'}>New</Link>
             </div>
             <Routes>
                 <Route path="/" Component={MainComponet} />
